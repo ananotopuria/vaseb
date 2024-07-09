@@ -10,7 +10,7 @@ import FaqsPage from './faqsPage';
 import AboutUsPage from './aboutUsPage';
 import SingleProduct from './singleProductPage'; // Import the SingleProduct component
 import ShopPage from './ShopPage';
-
+import Products from './Products/Products';
 const router = createBrowserRouter([
   {
     path: '/starter_project',
@@ -52,6 +52,10 @@ const router = createBrowserRouter([
       {
         path: 'shop/:productId',
         element: <SingleProduct />, // Shop page
+      },
+      {
+        path: 'shop/category/:categoryName',
+        element: <Products />,
       },
     ],
   },
