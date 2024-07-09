@@ -13,6 +13,7 @@
 .categoryList{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .categoryImage{
     width: 280px;
@@ -53,4 +54,25 @@
     margin-top: 50px;
     font-size: 28px;
     font-weight: 600;
+}
+
+@media screen and (max-width: 1400px) {
+ .categoryImage{
+    width: 200px;
+ }
+  .categoryTitle{
+    font-size: 40px;
+ }
+ .categoryWrapper{
+    padding: 20px;
+ }
+}
+
+@media screen and (max-width: 800px) {
+ .categoryImage{
+    width: 150px;
+ }
+ .categoryTitle{
+    font-size: 30px;
+ }
 }
