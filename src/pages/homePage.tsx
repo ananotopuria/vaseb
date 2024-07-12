@@ -1,13 +1,12 @@
-import Accardion from '../components/common/Accardion';
-import { Categories, Hero } from '../components/HomeComponents';
+import React from 'react';
+// import Header from '../components/Layout/Header/index';
 
-export default function HomePage() {
+const App: React.FC = () => {
   return (
     <div>
-      home
-      <Hero />
-      <Categories />
-      <Accardion />
+      <main>Main content</main>
     </div>
   );
-}
+};
+
+export default App;

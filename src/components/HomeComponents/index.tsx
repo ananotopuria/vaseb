@@ -1,4 +1,4 @@
-import Hero from './Hero';
-import Categories from './Categories';
-
-export { Hero, Categories };
+// import Hero from './Hero';
+// import Categories from './Categories';
+// 
+// export { Hero, Categories };
