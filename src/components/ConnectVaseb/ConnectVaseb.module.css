@@ -1,0 +1,101 @@
+.ConnectVaseb {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.connectVasebContent {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 22px;
+
+  padding: 70px;
+  background-color: #f2ede7;
+}
+
+.connectVasebContent p {
+  max-width: 510px;
+}
+
+.connectBoxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.connectVasebContent button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #000;
+  border-radius: 40px;
+  padding: 10px 34px;
+  font-size: 14px;
+  text-decoration: none;
+  margin-top: 30px;
+  transition:
+    border-color 0.3s,
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.connectVasebContent button:hover {
+  border-color: #605c53;
+  background-color: #605c53;
+  color: #fff;
+}
+
+.contentBox {
+  color: #fff;
+  text-align: center;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 34px;
+  display: flex;
+}
+
+.contentBoxLight {
+  background-color: #605c53;
+}
+
+.contentBoxDark {
+  background-color: #000;
+}
+
+.contentBoxImg {
+  display: flex;
+  background-color: #f2ede7;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  min-width: 45px;
+  max-width: 45px;
+  min-height: 45px;
+  max-height: 45px;
+}
+
+@media screen and (max-width: 1290px) {
+  .ConnectVaseb {
+    grid-template-columns: 1fr;
+  }
+
+  .connectBoxes {
+    order: -1;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .isHidden {
+    display: none;
+  }
+
+  .connectBoxes {
+    grid-template-columns: 1fr;
+  }
+
+  .connectVasebContent {
+    padding: 40px 10px;
+  }
+}
