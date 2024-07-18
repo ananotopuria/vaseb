@@ -1,5 +1,9 @@
 /* eslint-disable prettier/prettier */
 import styles from './ConnectContent.module.css';
+import Facebook from './svg/FacebookSvg';
+import Instagram from './svg/InstagramSvg';
+import Twitter from './svg/TwitterSvg';
+import Youtube from './svg/YoutubeSvg';
 
 const ConnectContent = () => {
   return (
@@ -19,28 +23,16 @@ const ConnectContent = () => {
       <div className={styles.socials}>
         <span>Follow us</span>
         <a href="https://x.com/">
-          <img
-            src="https://cdn.prod.website-files.com/660ff1d8ec321c4cd89cafa4/667671486617805c99b49da5_twitter-icon.svg"
-            alt="x"
-          />
+          <Twitter />
         </a>
         <a href="https://facebook.com/">
-          <img
-            src="https://cdn.prod.website-files.com/660ff1d8ec321c4cd89cafa4/666a847a985ca732278904e3_ic-follow-02.svg"
-            alt="facebook"
-          />
+          <Facebook />
         </a>
         <a href="https://youtube.com/">
-          <img
-            src="https://cdn.prod.website-files.com/660ff1d8ec321c4cd89cafa4/666a847adb7dd63e95011ec9_ic-follow-03.svg"
-            alt="youtube"
-          />
+          <Youtube />
         </a>
         <a href="https://instagram.com/">
-          <img
-            src="https://cdn.prod.website-files.com/660ff1d8ec321c4cd89cafa4/666a847a2ac18d3f287345b5_ic-follow-04.svg"
-            alt="instagram"
-          />
+          <Instagram />
         </a>
       </div>
     </div>

@@ -28,6 +28,7 @@
 }
 
 .socials a {
+  position: relative;
   background-color: #f2ede7;
   border-radius: 50%;
   justify-content: center;
@@ -41,12 +42,38 @@
   overflow: hidden;
 }
 
-.responseImage {
-  width: 453px;
-  height: 260px;
+.socials a svg {
+  position: relative;
+  z-index: 50;
 }
 
-@media screen and (max-width: 1400px) {
+.socials a::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  scale: 0;
+  transition: 0.5s;
+  background-color: #605c53;
+  border-radius: 50%;
+}
+
+.socials a:hover::before {
+  scale: 1;
+}
+
+.socials a:hover svg path {
+  fill: white;
+}
+
+/* .responseImage {
+  width: 453px;
+  height: 260px;
+} */
+
+@media screen and (max-width: 1024px) {
   .connectContent {
     width: 100%;
   }

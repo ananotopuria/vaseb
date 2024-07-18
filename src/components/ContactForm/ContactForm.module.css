@@ -13,6 +13,8 @@
   justify-content: center;
   align-items: start;
   gap: 70px;
+
+  margin-bottom: 150px;
 }
 
 .contactForm form {
@@ -84,6 +86,7 @@
   padding: 10px 34px;
   font-size: 14px;
   text-decoration: none;
+  white-space: nowrap;
   transition:
     border-color 0.3s,
     background-color 0.3s,
@@ -97,6 +100,12 @@
 }
 
 @media screen and (max-width: 1400px) {
+  .contactFormContainer {
+    padding: 60px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
   .contactForm {
     width: 100%;
   }
@@ -108,6 +117,7 @@
   .contactFormContent {
     flex-direction: column-reverse;
     width: 100%;
+    margin-bottom: 60px;
   }
 }
 
@@ -122,9 +132,10 @@
 @media screen and (max-width: 480px) {
   .inputGroup {
     grid-template-columns: 1fr;
+    gap: 30px;
   }
 
   .contactForm form {
-    gap: 20px;
+    gap: 30px;
   }
 }
