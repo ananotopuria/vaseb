@@ -26,7 +26,7 @@ const CategoriesPage: React.FC = () => {
           ))}
         </div>
       </div>
-      <div className={styles.imgWrapper}>
+      {/* <div className={styles.imgWrapper}>
         <div>
           <img
             src="https://www.thespruce.com/thmb/cBb8kUTiCPKaMjYSu2IMkUhbwOo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/01.737ParkAvenuebyChangoCo.-LivingRoomWideR1-fa4deea9615743c996d3eee70a6d0573.jpg"
@@ -41,7 +41,7 @@ const CategoriesPage: React.FC = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

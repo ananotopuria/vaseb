@@ -1,0 +1,137 @@
+footer,
+.ft-bottom {
+  font-family: Switzer, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 170%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ft-bottom {
+  position: relative;
+}
+
+.ft-container,
+.ft-bottom-container {
+  max-width: 1296px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.ft-container {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.ft-bottom-container {
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.ft-wrap {
+  display: flex;
+  flex: 60%;
+}
+
+.ft-col {
+  width: 35%;
+}
+
+.ft-connected i {
+  width: 25px;
+  height: 25px;
+}
+
+.ft-heading {
+  font-style: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.ft-link {
+  display: block;
+  text-decoration: none;
+  padding: 4px 0;
+  font-weight: 500;
+  transition: color 0.3s;
+  font-size: 17px;
+  line-height: 170%;
+}
+
+.ft-link:hover {
+  color: #fff;
+}
+
+.ft-email-label,
+.ft-text,
+.ft-link,
+.ft-email,
+.ft-email-label,
+.checkbox-span,
+.ft-bottom {
+  color: #999;
+}
+
+.fa-instagram,
+.fa-facebook-f,
+.fa-youtube,
+.fa-twitter {
+  color: white;
+}
+
+.ft-text {
+  padding: 4px 0 25px 0;
+}
+
+.ft-input {
+  margin-top: 25px;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.ft-email {
+  text-decoration: none;
+  background-color: #000000;
+  border: none;
+  width: 100%;
+  display: inline-block;
+}
+
+.ft-input img {
+  float: right;
+  transform: translateY(-120%);
+}
+
+.ft-email:focus {
+  outline: none;
+}
+
+.ft-input:focus {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.checkbox-span {
+  font-size: 12px;
+  color: #999 !important;
+}
+
+.ft-button {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 0 8px;
+  border-radius: 3px;
+  font-size: 13px;
+  position: absolute;
+  right: 20px;
+  bottom: 23px;
+}
+
+.ft-bottom img {
+  transform: translateY(15%);
+}

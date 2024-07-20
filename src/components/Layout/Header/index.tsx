@@ -2,6 +2,7 @@ import Navigation from './Navigation';
 import { CiSearch } from 'react-icons/ci';
 import { LuUser } from 'react-icons/lu';
 import { Link } from 'react-router-dom';
+import React from 'react';
 
 const Header = () => {
   return (
