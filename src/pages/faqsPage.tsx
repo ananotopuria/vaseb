@@ -1,14 +1,8 @@
-// export default function FaqsPage() {
-//   return <div>faqs</div>;
-// }
-
 import React, { useState, useEffect } from 'react';
-// import './FAQ.css';
-import faqImage from './../../public/images/faq.jpg'; // Import the FAQ image
-// import icon from './icon.svg'; // Import the new icon
+import faqImage from './../../public/images/faq.jpg';
 
-const FAQ = () => {
-  const [visibleIndex, setVisibleIndex] = useState(null);
+const FAQ: React.FC = () => {
+  const [visibleIndex, setVisibleIndex] = useState<number | null>(null);
 
   const questions = [
     {
@@ -43,12 +37,11 @@ const FAQ = () => {
     },
   ];
 
-  const toggleVisibility = (index) => {
+  const toggleVisibility = (index: number) => {
     setVisibleIndex(visibleIndex === index ? null : index);
   };
 
   useEffect(() => {
-    // Update the document title when the component mounts
     document.title = 'FAQ - Vaseb Webflow Ecommerce';
   }, []);
 
