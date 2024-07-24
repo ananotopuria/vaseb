@@ -1,17 +1,23 @@
-import React from 'react';
-
-const Hero = () => {
+export default function Hero() {
   return (
-    <section className="hero">
-      <div className="">
-        <img
-          src="https://cdn.prod.website-files.com/660ff1d8ec321c4cd89cafa4/666d1cb5aa0ee4e8f656e20e_hero-round-text.svg"
-          loading="lazy"
-          data-w-id="a4c51b1b-b500-fe36-2ee6-ef43b495bd9a"
-          alt="Hero Text"
-        />
-      </div>
-    </section>
+     <section className="hero ">
+        <div className="container p-relative">
+           <div className="row">
+              <img src="./images/log.svg" alt="" className="d-block p-absolute" />
+              <div className="row center text-white">
+                 <p className="sub-title">Inspired Living</p>
+                 <h1>Collection</h1>
+                 <p className="sub-title">
+                    Transform your home with Vaseb's innovative design solutions.
+                 </p>
+              </div>
+           </div>
+           <div className="row buttons">
+              <button className="button round bg-white">Explore Collection</button>
+              <br />
+              <button className="button round bg-transparent">Shop Now</button>
+           </div>
+        </div>
+     </section>
   );
-};
-export default Hero;
+}
