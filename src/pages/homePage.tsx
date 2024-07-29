@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from '../components/HomeComponents/Hero';
 // import Header from '../components/Layout/Header/index';
 import Testimonials from '../components/HomeComponents/Testimonials';
-import ModernToday from '../components/HomeComponents/ModernToday';
+// import ModernToday from '../components/HomeComponents/ModernToday';
 
 
 const App: React.FC = () => {
