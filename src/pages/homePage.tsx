@@ -1,4 +1,3 @@
-import React from 'react';
 import Blogs from '../components/common/Blogs';
 import Options from '../components/common/Options';
 import Hero from '../components/HomeComponents/Hero';

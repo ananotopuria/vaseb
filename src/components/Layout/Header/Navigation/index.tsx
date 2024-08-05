@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import { IoIosArrowDown } from 'react-icons/io';
 import { useRef } from 'react';
-import React from 'react';
 
 const Navigation = () => {
   const checkboxRef = useRef<HTMLInputElement>(null);
