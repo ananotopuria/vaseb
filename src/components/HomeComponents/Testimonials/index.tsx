@@ -1,12 +1,5 @@
 import Textra from 'react-textra';
 
-function MyComponent() {
-   return (
-      <div>
-         <Textra effect="flash" data={['one', 'two', 'three']} />
-      </div>
-   );
-}
 export default function Testimonials() {
    return (
       <section className="testimonials ">
