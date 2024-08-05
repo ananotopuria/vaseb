@@ -3,6 +3,7 @@ import ConcatcForm from '../components/ContactForm/ConcatcForm';
 import styles from '../components/ContactForm/ContactForm.module.css';
 import ConnectContent from '../components/ConnectContent/ConnectContent';
 import ConnectVaseb from '../components/ConnectVaseb/ConnectVaseb';
+import FAQ from '../components/common/FAQ';
 
 export default function ContactPage() {
   return (
@@ -13,6 +14,7 @@ export default function ContactPage() {
         <ConnectContent />
       </div>
       <ConnectVaseb />
+      <FAQ showImage={false} />
     </div>
   );
 }

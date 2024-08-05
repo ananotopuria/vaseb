@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Title from '../components/common/Title';
 
 
 const reviews = [
@@ -72,7 +73,10 @@ const ReviewCard: React.FC<ReviewCardProps> = ({ stars, text, imgSrc, name, loca
 const ReviewsPage: React.FC = () => (
   <div>
     <div className="header-container">
-      <h1>Customer Reviews</h1>
+    <Title
+        mainTitle="Customer Reviews"
+        subTitle="Testimonial"
+      />
     </div>
     <section className="testimonials">
       <div className="review-grid">

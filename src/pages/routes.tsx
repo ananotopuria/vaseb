@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     element: <Layout />, // Layout as a wrapper
     children: [
       {
-        path: '',
+        path: '/starter_project',
         element: <HomePage />, // Home page
       },
       {

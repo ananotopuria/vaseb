@@ -1,12 +1,7 @@
-export default function BlogsPage() {
-  return (
-    <div>
-      blogs
-      <div>
-        <ul>
-          <li>hello</li>
-        </ul>
-      </div>
-    </div>
-  );
-}
+import Blogs from '../components/common/Blogs';
+
+const BlogsPage = () => {
+  return <Blogs />;
+};
+
+export default BlogsPage;

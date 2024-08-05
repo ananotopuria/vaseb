@@ -5,12 +5,6 @@
     margin-top: 20px;
 }
 
-h1 {
-    font-size: 36px;
-    margin: 0 20px 0 0;
-    align-self: flex-start;
-}
-
 .testimonials {
     max-width: 1200px;
     width: 100%;
@@ -19,6 +13,7 @@ h1 {
     text-align: center;
     display: flex;
     justify-content: center;
+    background-color: #f8f6f4;
 }
 
 .review-grid {
@@ -30,7 +25,7 @@ h1 {
 }
 
 .review-card {
-    background: #f8f9fa;
+    background: #f8f6f4;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 30px;

@@ -1,8 +1,8 @@
 import React from 'react';
+import Blogs from '../components/common/Blogs';
+import Options from '../components/common/Options';
 import Hero from '../components/HomeComponents/Hero';
-// import Header from '../components/Layout/Header/index';
 import Testimonials from '../components/HomeComponents/Testimonials';
-// import ModernToday from '../components/HomeComponents/ModernToday';
 
 
 const App: React.FC = () => {
@@ -10,8 +10,6 @@ const App: React.FC = () => {
     <div>
       <div className="main">
         <Hero></Hero>
-
-        {/* <CategoriesPage></CategoriesPage> */}
         <section className="category">
           <div className="container">
             <div className="row ">
@@ -249,39 +247,8 @@ const App: React.FC = () => {
 
         {/* <div className="row">testimonials</div> */}
         <Testimonials></Testimonials>
-        <section className="options">
-          <div className="container">
-            <div className="row d-flex">
-              <div className="item">
-                <img src="./images/vite.svg" alt="" />
-                <h4>Order Tracking</h4>
-                <p>Track real time your order</p>
-              </div>
-              <div className="item">
-                <img src="./images/shipping.svg" alt="" />
-                <h4>Order Tracking</h4>
-                <p>Track real time your order</p>
-              </div>
-              <div className="item">
-                <img src="./images/payment.svg" alt="" />
-                <h4>Order Tracking</h4>
-                <p>Track real time your order</p>
-              </div>
-              <div className="item">
-                <img src="./images/shipping-1.svg" alt="" />
-                <h4>Order Tracking</h4>
-                <p>Track real time your order</p>
-              </div>
-              <div className="item">
-                <img src="./images/time.svg" alt="" />
-                <h4>Order Tracking</h4>
-                <p>Track real time your order</p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <div className="row">News & Articles</div>
-        {/* <ModernToday></ModernToday> */}
+        <Options/>
+        <Blogs/>
       </div>
     </div>
   );
